@@ -1,4 +1,4 @@
-title: OkulusDev
+title: stimakin
 description: Блог о разработке и IT
 baseurl: "/sites"
 url: "https://mikrobic.github.io"
@@ -12,9 +12,9 @@ plugins:
 
 # Автор
 author:
-  name: Okulus
+  name: stimakin
   email: your@email.com
-  github: okulusdev
+  github: stimakin
   twitter: yourtwitter
 
 # Настройки сборки
