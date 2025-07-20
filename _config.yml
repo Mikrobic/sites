@@ -1,6 +1,6 @@
 title: OkulusDev
 description: Блог о разработке и IT
-baseurl: ""
+baseurl: "/sites"
 url: "https://mikrobic.github.io"
 theme: minima
 
