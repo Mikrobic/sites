@@ -1,14 +1,25 @@
-title: Мой потрясающий сайт
-description: Личный блог и портфолио
-theme: jekyll-theme-cayman  # Можно использовать другую тему
+title: OkulusDev
+description: Блог о разработке и IT
+baseurl: ""
+url: "https://mikrobic.github.io"
+theme: minima
+
+# Настройки
+markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Настройки URL
-url: "https://username.github.io"
-baseurl: ""
+# Автор
+author:
+  name: Okulus
+  email: your@email.com
+  github: okulusdev
+  twitter: yourtwitter
 
-# Соцсети (опционально)
-twitter_username: yourtwitter
-github_username: yourgithub
+# Настройки сборки
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
