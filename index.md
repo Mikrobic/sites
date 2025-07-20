@@ -3,32 +3,30 @@ layout: default
 title: Главная
 ---
 
-<div class="projects-grid">
+<div class="section-container">
 
-<div class="project-card">
-### 🌐 Веб-приложение
-**Технологии:** React, Node.js  
-**Описание:** Современное веб-приложение с интерактивным интерфейсом  
-[Подробнее](#){: .project-link}
+<div class="section-block">
+## <div class="section-header">Проекты</div>
+<div class="section-content">
+<p>Мои последние работы в области веб-разработки и дизайна.</p>
+<a href="/projects" class="section-link">Смотреть все проекты →</a>
+</div>
 </div>
 
-<div class="project-card">
-### 📱 Мобильное приложение
-**Технологии:** Flutter, Firebase  
-**Описание:** Кроссплатформенное решение для бизнеса  
-[Подробнее](#){: .project-link}
+<div class="section-block">
+## <div class="section-header">Блог</div>
+<div class="section-content">
+<p>Статьи о разработке, дизайне и технологиях.</p>
+<a href="/blog" class="section-link">Читать блог →</a>
+</div>
 </div>
 
-<div class="project-card">
-### 🤖 AI Чат-бот
-**Технологии:** Python, NLP  
-**Описание:** Умный помощник для автоматизации  
-[Подробнее](#){: .project-link}
+<div class="section-block">
+## <div class="section-header">Обо мне</div>
+<div class="section-content">
+<p>Информация о моих навыках и опыте работы.</p>
+<a href="/about" class="section-link">Узнать больше →</a>
+</div>
 </div>
 
-</div>
-
-<div class="cta-section">
-[📞 Связаться со мной](#){: .cta-button}  
-[ℹ️ Обо мне](/about){: .secondary-button}
 </div>
