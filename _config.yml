@@ -1,3 +1,14 @@
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+title: Мой потрясающий сайт
+description: Личный блог и портфолио
+theme: jekyll-theme-cayman  # Можно использовать другую тему
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Настройки URL
+url: "https://username.github.io"
+baseurl: ""
+
+# Соцсети (опционально)
+twitter_username: yourtwitter
+github_username: yourgithub
