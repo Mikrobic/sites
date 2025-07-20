@@ -18,6 +18,6 @@ class: centered-page
 - [Проект 3](#)
 </div>
 
-[Подробнее обо мне](/sites/about){: .centered-button}
+[Подробнее обо мне](/sites/about.md){: .centered-button}
 
 </div>
