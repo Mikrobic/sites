@@ -41,7 +41,7 @@ body {
 
 /* Основное содержимое */
 .content {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 3rem auto;
   padding: 2rem;
   background-color: rgba(255, 255, 255, 0.9);
@@ -93,7 +93,7 @@ body {
     text-align: left;
     padding-left: 1.5rem;
     margin: 1rem auto;
-    list-style-position: inside; /* Маркеры внутри блока */
+    list-style-position: inside;
     
     li {
       margin-bottom: 0.5rem;
@@ -103,23 +103,93 @@ body {
     }
   }
   
-  /* Центрирование таблиц */
-  table {
-    margin: 1rem auto;
-    border-collapse: collapse;
+  /* Сетка проектов */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem auto;
+    width: 100%;
+  }
+
+  /* Карточка проекта */
+  .project-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #eee;
+    text-align: center;
     
-    td, th {
-      padding: 0.5rem 1rem;
-      border: 1px solid #ddd;
-      text-align: center;
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    
+    h3 {
+      color: #3498db;
+      margin-top: 0;
+      border-bottom: 2px solid #f0f0f0;
+      padding-bottom: 0.5rem;
+      display: block;
     }
   }
-  
-  /* Центрирование изображений */
-  img {
-    display: block;
-    margin: 1rem auto;
-    max-width: 100%;
+
+  /* Ссылки проектов */
+  .project-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background: #3498db;
+    color: white !important;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s;
+    
+    &:hover {
+      background: #2980b9;
+      text-decoration: none;
+    }
+  }
+
+  /* Секция CTA */
+  .cta-section {
+    margin: 3rem auto;
+    max-width: 800px;
+    
+    .cta-button {
+      display: inline-block;
+      padding: 0.8rem 2rem;
+      background: #2c3e50;
+      color: white !important;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0.5rem;
+      transition: all 0.3s;
+      
+      &:hover {
+        background: #1a252f;
+        transform: scale(1.05);
+      }
+    }
+    
+    .secondary-button {
+      display: inline-block;
+      padding: 0.8rem 2rem;
+      border: 2px solid #2c3e50;
+      color: #2c3e50 !important;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0.5rem;
+      transition: all 0.3s;
+      
+      &:hover {
+        background: #f0f0f0;
+      }
+    }
   }
 }
 
@@ -168,6 +238,10 @@ body {
         text-indent: -1rem;
       }
     }
+
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
   }
 }
 
@@ -197,6 +271,23 @@ body {
     ul, ol {
       li {
         color: #ecf0f1;
+      }
+    }
+
+    .project-card {
+      background: rgba(0, 0, 0, 0.5);
+      border-color: #333;
+      
+      h3 {
+        border-color: #444;
+      }
+    }
+
+    .project-link {
+      background: #2980b9;
+      
+      &:hover {
+        background: #3498db;
       }
     }
   }
