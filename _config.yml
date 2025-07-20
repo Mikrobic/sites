@@ -1,25 +1,17 @@
-title: Mikrobic Sites
-description: Мой сайт-портфолио
-baseurl: "" # Оставьте пустым для репозитория sites
-url: "https://mikrobic.github.io"
+title: Ваше имя
+description: Ваше описание
+baseurl: ""  # Для username.github.io оставьте пустым
+url: "https://mikrobic.github.io"  # Ваш URL
 
-theme: minima
-
+# Важные настройки
+theme: beautiful-jekyll-theme
+remote_theme: daattali/beautiful-jekyll
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
 
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
+# Информация о вас
+avatar: assets/img/avatar.jpg
+social:
+  github: Mikrobic
