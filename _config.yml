@@ -1,17 +1,16 @@
-title: Ваше имя
-description: Ваше описание
-baseurl: ""  # Для username.github.io оставьте пустым
-url: "https://mikrobic.github.io"  # Ваш URL
+title: Ваш сайт
+description: Описание сайта
+baseurl: "/sites"  # Для project site
+url: "https://mikrobic.github.io"
 
-# Важные настройки
-theme: beautiful-jekyll-theme
 remote_theme: daattali/beautiful-jekyll
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
 
-# Информация о вас
+# Дополнительные настройки Beautiful Jekyll
 avatar: assets/img/avatar.jpg
 social:
   github: Mikrobic
