@@ -1,0 +1,52 @@
+---
+---
+
+@import "variables";
+@import "base";
+@import "layout";
+
+// Стили для шапки
+.site-header {
+  border-top: 5px solid $brand-color;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 56px;
+  background-color: #f5f5f5;
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+  
+  &, &:visited {
+    color: $grey-color-dark;
+  }
+}
+
+// Стили для постов
+.post-list {
+  margin-left: 0;
+  list-style: none;
+  
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-link {
+  font-size: 24px;
+}
+
+// Адаптивность
+@media screen and (max-width: 600px) {
+  .site-title {
+    font-size: 20px;
+  }
+  
+  .post-link {
+    font-size: 18px;
+  }
+}
