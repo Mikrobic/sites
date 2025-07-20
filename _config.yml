@@ -1,25 +1,18 @@
-title: stimakin
-description: Блог о разработке и IT
+title: Mikrobic Sites
+description: Профессиональный сайт-портфолио
 baseurl: "/sites"
 url: "https://mikrobic.github.io"
 theme: minima
 
-# Настройки
-markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Автор
-author:
-  name: stimakin
-  email: your@email.com
-  github: stimakin
-  twitter: yourtwitter
+sass:
+  style: compressed
 
-# Настройки сборки
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
