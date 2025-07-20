@@ -1,14 +1,15 @@
-title: Mikrobic Sites
-description: Профессиональный сайт-портфолио
-baseurl: "/sites"
+title: Ваш сайт
+description: Описание сайта
+baseurl: "/sites"  # Для project sites
 url: "https://mikrobic.github.io"
-theme: minima
 
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
 sass:
+  sass_dir: _sass
   style: compressed
 
 defaults:
