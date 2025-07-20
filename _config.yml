@@ -1,12 +1,18 @@
-title: Ваш сайт
-description: Описание сайта
-baseurl: "/sites"  # Для project sites
+title: Mikrobic Sites
+description: Мой сайт-портфолио
+baseurl: "" # Оставьте пустым для репозитория sites
 url: "https://mikrobic.github.io"
 
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 sass:
   sass_dir: _sass
