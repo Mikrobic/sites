@@ -6,26 +6,26 @@ title: Главная
 <div class="section-container">
 
 <div class="section-block">
-## <div class="section-header">Проекты</div>
+<h2 class="section-header">Проекты</h2>
 <div class="section-content">
 <p>Мои последние работы в области веб-разработки и дизайна.</p>
-<a href="/projects" class="section-link">Смотреть все проекты →</a>
+<a href="{{ site.baseurl }}/projects" class="section-link">Смотреть все проекты →</a>
 </div>
 </div>
 
 <div class="section-block">
-## <div class="section-header">Блог</div>
+<h2 class="section-header">Блог</h2>
 <div class="section-content">
 <p>Статьи о разработке, дизайне и технологиях.</p>
-<a href="/blog" class="section-link">Читать блог →</a>
+<a href="{{ site.baseurl }}/blog" class="section-link">Читать блог →</a>
 </div>
 </div>
 
 <div class="section-block">
-## <div class="section-header">Обо мне</div>
+<h2 class="section-header">Обо мне</h2>
 <div class="section-content">
 <p>Информация о моих навыках и опыте работы.</p>
-<a href="/about" class="section-link">Узнать больше →</a>
+<a href="{{ site.baseurl }}/about" class="section-link">Узнать больше →</a>
 </div>
 </div>
 
